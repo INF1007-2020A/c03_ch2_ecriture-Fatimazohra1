@@ -1,0 +1,16 @@
+test_upper_case_names (__main__.TestExercice) ... ERROR
+
+======================================================================
+ERROR: test_upper_case_names (__main__.TestExercice)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "test_exercice.py", line 17, in test_upper_case_names
+    output = list(map(exercice.majuscule, self.words))
+  File "/home/runner/work/c03_ch2_ecriture-Fatimazohra1/c03_ch2_ecriture-Fatimazohra1/exercice.py", line 7, in majuscule
+    resulta+=chr(ord(lettre)-32)
+UnboundLocalError: local variable 'resulta' referenced before assignment
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+FAILED (errors=1)
